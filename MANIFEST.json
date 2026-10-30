@@ -1,6 +1,6 @@
 {
   "candidate": "hamiltonicity-oracle-reduction-lean435rc3",
-  "status": "installed Comparator/default-kernel accepted; no hosted acceptance",
+  "status": "Public proof-only package; installed Comparator/default-kernel and standalone NanoDa checked; official hosted verification remains pending",
   "base_manifest_sha256": "d2c3917359e5a3ad8697c2c3a54bdeba79ecab6b7a9a743881aa3552c0b53867",
   "files": [
     {
@@ -10,13 +10,13 @@
     },
     {
       "path": "AI_ASSISTANCE.md",
-      "sha256": "f3011d85b4ea873946aef8ed8366a84ded41014562a06ec6d31321f6cc02500a",
-      "bytes": 1976
+      "sha256": "b6021f0dd383194d9a1d5524f92cb1a99d764e3d22c68103536d189bdcea5d64",
+      "bytes": 2048
     },
     {
       "path": "CITATION.cff",
-      "sha256": "afa01e92a88fd34fc9bbd9cb2ee3526d96faa82bd04d467b10cd5b29ae966d73",
-      "bytes": 545
+      "sha256": "3431a8981a8593b7e8d420d9becbf0ed0b56ec8556a6a05dffd70a4c6a42db6b",
+      "bytes": 603
     },
     {
       "path": "comparator-finite-oracle.json",
@@ -590,8 +590,8 @@
     },
     {
       "path": "LICENSE-DECISION.md",
-      "sha256": "31fef16216459624331f22156f3ee4966080ea09908e741aa32aa3f90a3c69d3",
-      "bytes": 3530
+      "sha256": "7d593e7c240de17dc316fd7f0ec07f65b815be9a0d644f679cc52ee2226f2378",
+      "bytes": 3608
     },
     {
       "path": "PORT-DIFF.json",
@@ -605,8 +605,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "2afbb02f1d228022b77c4d61b916277c3e673954f56e275a884e27bd6a59b1d4",
-      "bytes": 2679
+      "sha256": "380b0a66557f730e074dec03c5e0e09d98eb5a2af58cff439362e3d36989345e",
+      "bytes": 3046
     },
     {
       "path": "scripts/check_source.py",
@@ -665,8 +665,8 @@
     },
     {
       "path": "verification/README.md",
-      "sha256": "d8320b9f64d977d9630b2aec39631a84c64523d0a73afb0805f8581a2505d98b",
-      "bytes": 2110
+      "sha256": "48300e0be9aa40a39fc1e8144b18966490540a721d5fea5fff7b0cc98f2c813b",
+      "bytes": 3306
     },
     {
       "path": "verification/SOURCE-BUILD-MANIFEST.json",

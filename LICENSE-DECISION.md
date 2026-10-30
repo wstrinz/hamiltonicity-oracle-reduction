@@ -1,6 +1,6 @@
 # Licensing and publication layout
 
-Will Strinz approved MIT for the original proofs/code and associated documentation, CC BY 4.0 for the separate manuscript, and his role as responsible maintainer on 29 October 2026. These are the applied local choices. They do not authorize a public push or submission.
+Will Strinz approved MIT for the original proofs/code and associated documentation, CC BY 4.0 for the separate manuscript, and his role as responsible maintainer on 29 October 2026. These choices are applied. The proof-only repository was subsequently published with explicit author approval; manuscript publication and Palomar registration remain separate.
 
 ## Included snapshot
 
@@ -18,6 +18,6 @@ Recommended publication: use `hamiltonicity-oracle-reduction` for this proof-onl
 
 `project.responsible_maintainers: ["Will Strinz"]` meets the documented name-list shape. Email, telephone, postal address, affiliation, GitHub login and ORCID are not required in that field. The already-approved ORCID remains in citation/author documentation; no additional personal contact details are added. Submission authority and GitHub push access are separate checks. No self-approval evidence is needed when Will submits as responsible author/maintainer; an agent must truthfully use approval from a responsible author/maintainer. Optional free-text evidence can become public and is omitted here.
 
-Remaining: authorize and create the public repository/fixed commit; run the full official workflow (including NanoDa) and editorial process; then explicitly approve registration. Installed Comparator/default-kernel results alone are not hosted acceptance. No public destination or commit identifier is invented.
+The proof-only repository and initial fixed commit now exist. Remaining: run the complete official workflow and editorial process, then explicitly approve registration. Installed Comparator/default-kernel results alone are not hosted acceptance. No public destination or commit identifier is invented.
 
 Official license texts: [MIT](https://opensource.org/license/mit) and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en). Current requirements were inspected 29 October 2026; recheck at submission.
