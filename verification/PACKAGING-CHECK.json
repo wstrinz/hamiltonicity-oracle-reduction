@@ -1,0 +1,13 @@
+{
+  "kind": "source custody and release packaging check, separate from proof verification",
+  "date_utc": "2026-10-29T23:33:49.991818+00:00",
+  "passed": true,
+  "lean_source_files": 103,
+  "verified_proof_build_files": 107,
+  "privacy_and_links_passed": true,
+  "all_lean_sources_identical_to_4341": true,
+  "source_checker": "offline packaging check, not proof verification",
+  "license_selected": false,
+  "hosted_palomar": false,
+  "nanoda": false
+}

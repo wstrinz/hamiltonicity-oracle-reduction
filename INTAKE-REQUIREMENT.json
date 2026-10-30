@@ -1,0 +1,15 @@
+{
+  "url": "https://raw.githubusercontent.com/PalomarRegistry/PalomarSubmission/main/toolchains.json",
+  "policy_url": "https://raw.githubusercontent.com/PalomarRegistry/PalomarPolicy/main/CONTRIBUTING.md",
+  "text": "{\n  \"schema_version\": 2,\n  \"minimum\": \"v4.35.0-rc2\"\n}\n",
+  "saved_text_sha256": "dd5d8a2b283b87c0fcff80d0eefbeaf2e7a7ef5f5b6b0a1de6d29b238d301f38",
+  "capture": "Official page read with web tool; saved normalized UTF-8 text, not an HTTP-byte or signed attestation.",
+  "policy_text": "The lean-toolchain file must name a Lean release, in the form leanprover/lean4:<version>, no older than the minimum recorded in toolchains.json in the PalomarSubmission repository.",
+  "proposed": "leanprover/lean4:v4.35.0-rc3",
+  "meets_stated_minimum": true,
+  "fresh_local_executable_confirmation": true,
+  "observed_date_utc": "2026-10-29",
+  "capture_note": "Exact retrieval second not recorded; date and official content preserved.",
+  "confirmed_lean": "4.35.0-rc3, commit470d5ce1400764999581fd26d5d72b00d990b0f4",
+  "verification_note": "Fresh installed checks passed after the separately approved read-only retry; original capture is preserved in the source-build manifest and private preparation receipt."
+}

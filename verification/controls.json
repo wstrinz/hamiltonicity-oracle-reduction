@@ -1,0 +1,26 @@
+{
+  "fixtures": [
+    {
+      "name": "positive",
+      "exit": 0,
+      "expected_exit": 0,
+      "intended_outcome": true
+    },
+    {
+      "name": "altered-negative",
+      "exit": 1,
+      "expected_exit": 1,
+      "intended_outcome": true
+    }
+  ],
+  "local_fixed_interface": {
+    "exit": 0,
+    "source_sha256": "ad79284c7dc89213fa98da05001efb3857bdbc3234eeac3624803b9bc0cb0cd6",
+    "controls": [
+      "hints",
+      "body",
+      "type",
+      "safety"
+    ]
+  }
+}

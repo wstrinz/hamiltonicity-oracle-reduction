@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the exact published revision when one exists. This is an unpublished local candidate."
+title: "A verified finite oracle reduction for Hamiltonicity"
+type: software
+version: "0.1.0-lean435rc3-candidate"
+authors:
+  - family-names: "Strinz"
+    given-names: "Will"
+    orcid: "https://orcid.org/0009-0007-7682-8284"
+abstract: "A Lean-checked finite fair-bit exact-count-oracle reduction for Hamiltonicity, with concrete CNF counts, bounds and one-sided error. No machine-runtime or ETH claim."
+license: MIT

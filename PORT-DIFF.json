@@ -1,0 +1,8 @@
+[
+  {
+    "path": "lean-toolchain",
+    "old_sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+    "new_sha256": "ceb521c34ccf509ffab8850a94e147aefbc9b406506832eb83caae98c64e0116",
+    "diff": "--- 4341/lean-toolchain\n+++ 435rc3/lean-toolchain\n@@ -1 +1 @@\n-leanprover/lean4:v4.34.1\n+leanprover/lean4:v4.35.0-rc3\n"
+  }
+]

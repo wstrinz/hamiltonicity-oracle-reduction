@@ -1,0 +1,14 @@
+{
+  "solution": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "challenge": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "challenge_holes_expected": true
+}

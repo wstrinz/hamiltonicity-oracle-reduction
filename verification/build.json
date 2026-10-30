@@ -1,0 +1,625 @@
+{
+  "lean": "4.35.0-rc3",
+  "module_count": 103,
+  "root_facade_separately_built": true,
+  "modules": [
+    {
+      "module": "HamParity.CNF",
+      "source_sha256": "5117e28b9a0ff6b5861bfb1caeb645579e5759fc33279fc43feaa00a574967a4",
+      "object_sha256": "805290f2c5548197df0654b0b6babfa2a5997a4f0493bfdc4eb3f60987a7792f",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Gate",
+      "source_sha256": "8b386991dcf82fb8d34df33a417794e614f9386803161126c0673cc2cf1a4d5b",
+      "object_sha256": "472e70a733c6e9d4248100a78c6329e8421e389d9d5de526b1fee2452e91b4b6",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Circuit",
+      "source_sha256": "d555980512f9e41b1eade47ddffcd280969794cd88195097f167c48a03b59b99",
+      "object_sha256": "eb0099eb17206060aee959f52aea21eb9fe3c164b9a48264dbda5f973ae521f3",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Counting",
+      "source_sha256": "c1538e15ad2b5e260de4f8b41a7e84eaacba1d8ade2539fc3188295ac8d793dd",
+      "object_sha256": "464b61ea6e0cf22bd9e35d9c6f6009f71117eca0684184a0c39e0cd7fceb27f5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.FullAdder",
+      "source_sha256": "213425d76343874d110c3c2c1e72637e7497bcc17e3fe762c5dd04c1109f996e",
+      "object_sha256": "c4d599f92df255960f05a6cbbe4ae593b4e8dff5647d5c1fa6e643c6572259d9",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CutColors",
+      "source_sha256": "71b3c57545f0225078312b709e153a73759310543ba4d793d12d4fb2621d19e6",
+      "object_sha256": "ba195346c7aac956566a0200c0b0a3b450fe1067bf3aa5b6328be1f105d94012",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Parity",
+      "source_sha256": "3a4cf37d202ef828912672ace76f254ad55336f856a0a2395c19eb0dea9fa4b3",
+      "object_sha256": "da12d48fb3c71209d5e6792f04fb05eb1fee75297aa6e09ec506884de0847b81",
+      "exit": 0
+    },
+    {
+      "module": "HamParity",
+      "source_sha256": "1813c00b6cbb9387463c870b35479ffb0ad864432b73130eb3cab178eb3f14c9",
+      "object_sha256": "3581c3b5f8eb1204d46a86c587f5b6eb826840b72f6a7b443b8fbfcf08ab59ce",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ComponentColors",
+      "source_sha256": "2eeec44db17f70cdc7a767547be71605c383b2ba37fd03b547d9e5995190a88c",
+      "object_sha256": "28f28815b69567d8fb360e9315cad6e8a03c463c35c781339e9b18358f266fae",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GraphColors",
+      "source_sha256": "fdb810277fb2a05177d94084638c7856c4a2ec0a08f71d27881cd639033c490b",
+      "object_sha256": "6c6d70d7dc22e4497997fcae6ee051672bd983ddd569770ca42442438799a998",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GraphColorCNF",
+      "source_sha256": "9675c0bf6337ea6129838e3274a70ed6ba0f120bc33d93c172e219b88dd1abb3",
+      "object_sha256": "94cc4c81171439135077d7c756909b88aed7ec455ccc2dfd02ae0ed6c2ee7c44",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ComponentEnumeration",
+      "source_sha256": "be224f2f21a7fcf1b3d931ec5cc5b4ac08ab67b79a2f20e4e7c282d2840db210",
+      "object_sha256": "8b8f3a6f587daaced380780d74a0951f4631bd0b1f1c8dc400ae85753d5c6de3",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ComponentExamples",
+      "source_sha256": "910b4fcd9956b73bd02ccf739bc620cbbdeb1493557242e5d827983486965cb3",
+      "object_sha256": "ac26fa89b86af4c0e96eb713febb7930d3edbf4e690312b8dd7af94d73cac7a4",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Components",
+      "source_sha256": "ee32df0ff2cfdf1313c43f9f4b2c48779e668513da527878148a6e33f426d9fa",
+      "object_sha256": "e29849a2623576db73b0700e7937ece0f022fa80feffea6a85a51171d829bc1f",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SplitAssignments",
+      "source_sha256": "6b3bc2cea6e3b44b6879e3eeda6f89982362f7b688c8b68ebff8a098fe6601c5",
+      "object_sha256": "3d468aba1a0907d5e632d440ee5d8f11e3e80a747569b76a2b1298c33bbccb3b",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.DegreeTwo",
+      "source_sha256": "82d55ecad282e8da60f64020a182fe8a83df7a93de05887c8b919a5f1fa6a1f9",
+      "object_sha256": "d5e3f70b6f0a37f06bad39454d919ce6b52308ea666b0852626f8e80684fca4c",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.EdgeSelection",
+      "source_sha256": "eeddb18217d74feb7bf0aa4d91ed90263879dcc187adc9ce6d2261e9243c0817",
+      "object_sha256": "2dd2048592162a08bfd9d40e4a781ff168a70627b610176a7dc14b96869de2f5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SelectionCounting",
+      "source_sha256": "9d59ec269795b15fed72d86059743b79046ab20ad460bf92753b1d179129cf3e",
+      "object_sha256": "5853213a13214c01e4949b32c67f2984ab5b78520e68c90224d600d50c0a8415",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SelectionParity",
+      "source_sha256": "9cde3932c83d893058e287c0b47639907ab5a2ed0600413a7382ea3c7c97e88c",
+      "object_sha256": "2d1f1639c2b1290bd32f85fe6193c77d18587c2594465d5166819a85d3e36433",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SelectionGraphMeaning",
+      "source_sha256": "fd2cf6aa535d9cb4da3e01b77090e34e79ac605279de888654340846ecd580b7",
+      "object_sha256": "db02e4af40e97e17695fdc240bf5cb4e5a797d2e855d4cd9c0879bd48e9bd781",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SelectionExamples",
+      "source_sha256": "a4765633d6aba04c0ae1c81c147996e22a42fc5e759ab308b5d703b1e1b78497",
+      "object_sha256": "966c245d1f646d4c753ee52e2f15563607297b0753a77381898843934ec9f956",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Selections",
+      "source_sha256": "c1135844e36884eccc2aac766149f913c90a0ac07eba871dbc1caecba05f3077",
+      "object_sha256": "c5215ff7049ea40cd4a35c8a4ba4d49eb952bcd4f0ed494147c7a0f38c6e8857",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CyclePaths",
+      "source_sha256": "7bc952aee8c1118688ec1f1c67d331bca08ea8d2e5767eecb77444aaa4cfb8be",
+      "object_sha256": "71532695f8481ce7c9c6ec930580d3b7ba17af76b6b9124467dcb46c5724afc9",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleMaximal",
+      "source_sha256": "9f03eb8ff59e401f3c87c8bc3f1d454727356483bea9815e9b81a3282fdb5483",
+      "object_sha256": "d8286b811760ab18c1f9f6117d67641a267c814380644ae3bc6489f592fb989e",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleGraph",
+      "source_sha256": "07984d26494fd8fad88203914ef8bfbcafce0aa5d1ec7db6b033ff7241be46f7",
+      "object_sha256": "39c33461fe41bd2c674cc7dd13389b57fa89ea97515ee06c57d5866b7dc7d2ff",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleBridge",
+      "source_sha256": "88e2dec54702680bc7de589c66f1b4c2172f6268abb47fe71e3c60734b9811ec",
+      "object_sha256": "8023d55dd1c9e4a153d0d29744b575e1602d911019df3359bcb4ea09c64d1636",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleOrder",
+      "source_sha256": "a26f955b6fcdba6035ecf3f1132aeca7af23aea8dd3ed4bf96209e65d13ae7f0",
+      "object_sha256": "d6ef2f0336b8f03eee02da61122573cf9e096876f1109c92b16cdf7ee326e0da",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleParity",
+      "source_sha256": "15e475943b64bb6e3ce76ee77d535fbc620d07799be43e5dfa09f5f533a4ee00",
+      "object_sha256": "74dc71e44ef82b1c7a9e62c122e5986357680ffa69c578b06d13a9097afe8549",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleExamples",
+      "source_sha256": "35cad46654bad55acf01031de91bab826925b841c613fbdc6fa1dfc6179d98dd",
+      "object_sha256": "a7f2d0d3019b05f5eed7bb96352f36f3fdf390b46a20ac08d57f7043b6b5123b",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CounterStep",
+      "source_sha256": "fbe203a49f5f749719eb9cd0c916ffce9a9d507c6c25f69d3dfe382f378f6286",
+      "object_sha256": "c7b0dc6dc3c18ea914bccb6016c14b820f6bd5ed9a33e2eb796fe0bee2f69fa6",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CounterBuild",
+      "source_sha256": "b94f8b16d9a30f64d18a27628e14cdb76d7139ef5a97491eec0831998d4b6dfe",
+      "object_sha256": "c81da0c7e047d5eb8577e28e46e73737efd0b25932a547decc7e86c8e7d57ee2",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CounterCNF",
+      "source_sha256": "44616e1a3c76d5cb3de27d1c09a72daeb5647c1edb596bc39940a464ca655148",
+      "object_sha256": "70ed34fcc665d96eb3b97a270c9ee4ebc48bd463cb0c0a239cdb47b220fb41d9",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Cycles",
+      "source_sha256": "21792f327bf05d275b0a695f5ed9d89e67944b59caa4d018f4b0530a5765192b",
+      "object_sha256": "2686f5bda11018e1adcd4dd6434fa2a2853e5d2b02ee4823551f61c45d556828",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BatchWires",
+      "source_sha256": "739829d5cf1dca51066c99bb25f9604fff6deeb09b090327835f3edf3571cd89",
+      "object_sha256": "a22eae7a0c25ceac2504c4179a5901034d29872f8100b1e54f4a0ea36a89781c",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BatchRows",
+      "source_sha256": "5906811d49264f4afb285fec5d62c423da0864927ba82d4a9f55d1ca644cf43f",
+      "object_sha256": "318696dc5e2c6bedd87192f59a96b061c241d14b82219d9df637c3e5026eb727",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BatchCounting",
+      "source_sha256": "54d938698ff1089a8edee19356f846a864e32cb9b8969e13fc84f7cb7525c2ee",
+      "object_sha256": "bf61334e9cfc9250766f6bcdb2479714b8f146fd7d0207535f18b0ff77b40f11",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.IncidenceSize",
+      "source_sha256": "47697e0dbc1664809b0be3e3745fa22b5c3960a590f8eeb3974d2fd7f3087c43",
+      "object_sha256": "29032470be449de1c940de1c7d6289b0676575e3dba2517c0e603632447568df",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GeneralGraphCNF",
+      "source_sha256": "3d066008290e7b427f7b90b33d203763dcd9f4ae1b57d1880c6ab315def17525",
+      "object_sha256": "d5ebb69f0643638b3c269d65c33c7f377cee7bf662889cd80efeb7c57b5c7788",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GeneralGraphCounting",
+      "source_sha256": "bd626e4abd14e60d00c74247fa2951bc0a3f44358d61bf4a8364c78dc1f36b66",
+      "object_sha256": "cfdf389b706e6b6aabe9eb5a319867c5539fead6ff3cc4d9e0d8a58d016110b5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GeneralGraphParity",
+      "source_sha256": "5ec7cd701bbe939986b49d16d8b2d3df334f2c285e00a08128715383d347f1ea",
+      "object_sha256": "135a6e1ec86920633e052210febfbd12ee7af4d9677f72a34ebaa4ee686c31bf",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GeneralGraphExamples",
+      "source_sha256": "6750d5256522c4da583087d5641883921dbcf7e1c4794660ad6fadb4ff6d3eb0",
+      "object_sha256": "867c462473dee70888fbb8f2832cc096ef2a59c6a07765fba05f724656719e10",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GeneralGraphs",
+      "source_sha256": "261b2da24f7fc2aa2ba62eeeb17e7c101ad29251c7af52c72b48e9b4d40ec1b1",
+      "object_sha256": "79484438dff0f5f8b324e2e6e1d4c564214f442a000576c1d62dec9a3039ca21",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleSelectionPositions",
+      "source_sha256": "2df86e06d23ef3413a40468930ad543ef123827d4be0c9f67360f069294b0c8f",
+      "object_sha256": "83175233fa8ed0f5d07a55e7cacc621cdbc77f96dda1a3460de316f7e957518a",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleSelection",
+      "source_sha256": "6965737a8813ab80a4f837c74db81633d814ea83c5323ba927a59e42b5b0bc2c",
+      "object_sha256": "008d7a6147d16a880ce302ef0a9b47338acb096d267a358a520f61286b4c84a1",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleSelectionCompleteness",
+      "source_sha256": "6f0d988cb073bfd425b05a49d91d50b9faffab5471a78db01e248c778ae6d685",
+      "object_sha256": "5c72559f724597056f0a8e889e14391e48e7b98b5c2b1bfc2ab5c1dee6d9355d",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.Completeness",
+      "source_sha256": "8fb2c1cda2035f0c74d69bb7b382877f6e5646c5badb03b0a79531a449ea5940",
+      "object_sha256": "dfe7f0ad84e8b543dead1123b23c8563e89674c3c91e32827c6e650e58f4afde",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BinaryBucket",
+      "source_sha256": "a3d2e31c0dec068aac23f9f0db9443885f2cee2846d4a5c07e1c3da4f5c07f53",
+      "object_sha256": "7dc12a78e1210096c44f597ff83774ce62aa6a16e79b7228ec1bb80414cbe446",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RippleArithmetic",
+      "source_sha256": "03ad716704c4b28aa6bb5f73622a7b5ee0e260b8c693f79b188b8c915ae9f878",
+      "object_sha256": "efe534bd47cb479894b5e20f7d255e5256d1754e2201664eb159e1be20e8dcdd",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RippleBucketCNF",
+      "source_sha256": "ae02a9e00ced3dd3aa22587b5d163a811e17c3988d45af7ef2e0c968f9ce2eba",
+      "object_sha256": "6c8e6b745099a7397ac671249a7f358e8ea07e16774c6bcef0ba5816e517ac24",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RippleExamples",
+      "source_sha256": "2051136af0fe9573077dee2826f2a9430fe386bb62a17a5ce71ca9fa1bc5fcb9",
+      "object_sha256": "ce43a7b1a3da9580a4b63182a968eacf997cfe1b51505ba1363e363cd8783647",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedRipple",
+      "source_sha256": "deacfe0d28cabef900ff23fc335c02edd16e7fe177d9ef48df1b89f0f19247c6",
+      "object_sha256": "5b43325b9b242bca0dcb5d405c14df1379a41c9bb51c9c0f6e789ae5adaf9f3f",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedHeap",
+      "source_sha256": "316062a5df58cf756fbba2e3c967e9881c9bc53540006ead8652b1228d28c69d",
+      "object_sha256": "be8f64786f19b0ee83c8c5a1dab86ebe5e73063ee3ef32a27af352156bc9dae0",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.HeapTripleSearch",
+      "source_sha256": "02eff2d9cea7bf1823fcb967cb14f7b20dcc5676335319d12598e84fb8d93394",
+      "object_sha256": "8e22219a53ca5de4ba81a02700069bade94304e03b3dd28e5a29fd3b8d408a8c",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.HeapCompression",
+      "source_sha256": "e5298ea650c43aaa73491a51e7e3b9956fc9fb9e0c4a93ec86ee1ee2743bd189",
+      "object_sha256": "140cbb792ee8e405900aa207a4451a895fec62a17d6d94764a83877cf685d6e3",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CarrySaveNormalize",
+      "source_sha256": "6f145e412a0cf8ec945a89ee955cf66ee88313b8a41818b446dfae2af554e2be",
+      "object_sha256": "f9b4ddf280bcd6018192c0a58da2a36a18d54f908f984a2454a6b4be94eb14cb",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CarrySaveExamples",
+      "source_sha256": "30fe0fad58f3774160ba236bb4a8c4beebb63d6a9de80b8facea1e88e7568c76",
+      "object_sha256": "288fc744ebe5a6a2b0c01861d2725977e1bbc7c8b015a3ed548bced58fd2bd30",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CarrySave",
+      "source_sha256": "80701a3bd5c9ba4693a2b8cabb06411004e60e25f7947b1b1793d9dfe757ac18",
+      "object_sha256": "c83822cd43936be794b72ff0393ae42a98123ab0beb10b4719ed3522bfa7b823",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.HeapWidth",
+      "source_sha256": "5fa53b8e23385287ff748bcc63118492d35c1a3a5de5839b0140cf9006f70fe5",
+      "object_sha256": "a27f0ac1064237fd05051b38f5ea271deb2821e89a91ae5b286c2cf34c393c60",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.HeapColumns",
+      "source_sha256": "4fc877ebf1f1d3e046401b5b395787f61e93d9e2b12c042d5a0e3a46e55b5ed4",
+      "object_sha256": "1506b077e44bd1fc11839e8602d02494de0a7011fd65efff4bb89c4a855c3c68",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.DenseHeapRows",
+      "source_sha256": "f4f6cd24158e3e8df3d7ed214280152fe97cd059052d84ea51f3c469542c8936",
+      "object_sha256": "6be8fe6f5d65dd4a4004438c1d17f536cbf08523455df6221ae29416009e7a96",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedArithmetic",
+      "source_sha256": "faa34ebeb53496156947b6002ff0a6786fcefc1c2f1287eb21cef2298c0c10be",
+      "object_sha256": "6ce9a2760143ad14b110c5cbdd4fabda16ad72adaa42614ef0376144de1aeace",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedBucketCNF",
+      "source_sha256": "aa9b8d5704889cadc66b14ddbe9fa4e95bc41c3230367fa560affcccdaadd540",
+      "object_sha256": "9aada98a4bab3c9d56c6d4e806414f20f6e9d60f94aac17cd7a6d3ff9c945d4b",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedBucketExamples",
+      "source_sha256": "d139d4acfc7a0dda7e2a6d9756b0b0b5550ce723cc5988f64682c79a7d67c3de",
+      "object_sha256": "1b9f3316e274fe684d690b34787e9968684f091b14d8a673838029c1c1102f4f",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedBucket",
+      "source_sha256": "7d6bc564b9ba5be9b7540ab0a57ef53998bdabf2857feb5888a5be9c22d501bf",
+      "object_sha256": "db4e88a5484ebf26884255b9b026bfe4a695a7c908a120cf28ae044b54970ee2",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GraphWeightInputs",
+      "source_sha256": "4fbc23a98b680405af8a99498bdcb907cf1342d0926ef54d61aca707d52bbc07",
+      "object_sha256": "51892a2a4a81b0352a5f7483d0d0d74b4bd187aa5e370aa00485b094775468a5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraphCNF",
+      "source_sha256": "5202ea17446a91a5ab5b787f0560b6493a96dfa848d899c2c1149d6a8785de2d",
+      "object_sha256": "72af0acbbb0a3e5a1f7d3fc50f464f37e4338c7b84bd1d2442e9f9b40fbba1eb",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraphSize",
+      "source_sha256": "6fef8dc2123cef5088ecaaeb321bba65118042f3685be77dc1aa9df3312637d4",
+      "object_sha256": "924268ed31a413d266150379a771888b39936cbf4c146674754c6ba91240d15a",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraphCounting",
+      "source_sha256": "0184ec9d7cbca5b9cf5d5e6aca17d4fc079b3259889dd7bf7ac4d56cc54bbdd1",
+      "object_sha256": "c5f8cd00daa69e659b8635537295547e08b8899557c368c43aa2078561dc99fd",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraphMeaning",
+      "source_sha256": "998ac39fc90dbb62eed563027ea36c4324b4fdafb877051d37de763f2262a416",
+      "object_sha256": "7a954e2f18f43c447bd198b3f8a1ebc744e87e16138529bb4aa3a04fc6ed6fe5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraphExamples",
+      "source_sha256": "ebe332881607a16fc44d3eaf810a2dd7b73bdaa077410eb3c6274f84a3256620",
+      "object_sha256": "8756bb3a39291530d4b34c6bcad24d36e4ce9712503564d93ccc9e7693abd644",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.WeightedGraph",
+      "source_sha256": "1fb2a4e3f21ed400572404f678b9bf172af1e35e030b0a7ae9289653ea72327c",
+      "object_sha256": "0a6a4a3cbd1037aad8cf3414933f85208d75d4a5687e3440002c0acd65202f81",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BinaryPolynomial",
+      "source_sha256": "bbb627ac39d5cfd6101e5c0e82daab82d58d93871f97094e8053222717939a84",
+      "object_sha256": "f95cde3b10c7c5b769589f9361a4d0f25b4f8db365253b3744ba2ae3e96baf45",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.BinaryMonomialSurvival",
+      "source_sha256": "f9163ed035fce2ff3a45959e862335310547173dafa20a37c1e93a65b190546d",
+      "object_sha256": "8ee733322949d8b9bddefd26248d2c83c8bc5b369a3b9231e1c148886578eeb5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SelectedCardinality",
+      "source_sha256": "991e3bd9def3f47a7346fb3fef816ccdb5f32f5fd678ee800e64b54e7dfb5031",
+      "object_sha256": "f635e6fd83cd39b3834d8500e156cefe0b1764812b19fec35ec3ff4c54ae8e5a",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleMonomials",
+      "source_sha256": "1192455088479f6616634c0c653552b825b9e6ea0b45ba130b3624e5c80cfbc6",
+      "object_sha256": "9139b895d966a17916bf6a6431ebf79cfcbbc9ec155823e115d3316250458278",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleBucketPolynomial",
+      "source_sha256": "624cef3bd1b92ca8c22c6f51f1976394ab30d8c5958ecfffa4c2ad2e8a3fe4d9",
+      "object_sha256": "d7caa867fd9b2ce2f35c0d04ec83c240fe717da8d6b42fbb3f2a6702b80a1e58",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SurvivalStepExamples",
+      "source_sha256": "98db142cdfef4d8fd6a61ef7e166fb42f8de8eedb510d780dbee58c59e8beac8",
+      "object_sha256": "57a2a1d261f3b8825c419b0376083f77a4403ee5bc565e6e56579c0cdd962acc",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.SurvivalStep",
+      "source_sha256": "94cf114d6434360ed7e512f592aad9a8ddfaee41fb01dd9b5acfaed48d1b5a22",
+      "object_sha256": "e96f44c7402d13b45a81e0b8a899338d5f7210b729054a72b916dfd708d85273",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.MultilinearPolynomial",
+      "source_sha256": "60646e9ebda048061f74e3ddc319d5cea74c236990c26cbaab95a3d8c4caf470",
+      "object_sha256": "ba0d0ec0b80d2bb76ed807b32eccd8bebbcc352af34d351ca282db8af223ea18",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.PaletteGrid",
+      "source_sha256": "6f3f5ec4d1483104a6078af9318a2773e30885b96534725d5d0f1a93d4adeeba",
+      "object_sha256": "a4499ac7e7254bb5e239d7e2ea92815d95e7f7b675e606c5eaeecf728b4bfcc0",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.GlobalSurvival",
+      "source_sha256": "9fa1284ad232ea65ea733379e17a7a6f7d0d30c979ee6be8e5371b09a0f8eaf6",
+      "object_sha256": "d1ccecb9d5f822b2407dce1dce0a8fdf16419ba2a0ac5b0db49e44fb6fad699f",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.MultilinearExpansion",
+      "source_sha256": "d17f8ec42219ab72e85691cd53dc2874a3c79c3d14e25a0d650024dbda379dae",
+      "object_sha256": "379d2fbf26c34370d6e96266950f09316d8ba4137efe0dbfa9b7bc1e6ed83278",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CycleSurvival",
+      "source_sha256": "8ce3639589beb954bd520cce7e64267a39ef2ec7d2203c3cd1c859f9426ee22c",
+      "object_sha256": "1ac1815ebc2767cfdd42e289d527d2ce2243a36dd6e881667c6938a72d9ac3af",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.FiniteProbability",
+      "source_sha256": "679cd96c1b27352402a2830ac65e5c42db95c669124af1c1d0c9aeede8bcfc65",
+      "object_sha256": "b5ef5ad12494a9eaa3affda38a526fc408d71c7d7001526bc6d230030e9d4fe5",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.FiniteBucketDecision",
+      "source_sha256": "f92dfca46a3d1df543b31971a6c67d52aa6879335fcfe3162a39f79756231caa",
+      "object_sha256": "12e1c56d6b491f297a099d1febc0be64ce4f00b16b9728f888ffb01e96defd09",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.IndependentTrials",
+      "source_sha256": "b8c2c92024f76a6feb2b7cd661d89d198103cade1d1d7fc57d6ce556908d3013",
+      "object_sha256": "e08b35921f9a6ce1cef9b1a2fe64c5f4c1aa68c9c8ccd76de76fe1960ffaaab8",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.DecisionAmplification",
+      "source_sha256": "c51209403bd6d0f188f2c974ad3b3fb5889fae91ce7b56ab6a5150c62e54b426",
+      "object_sha256": "583358fef090c5b284556d7b0a0e07d2d821ed2e1e6ba404b294ced6ea262ae4",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CanonicalSets",
+      "source_sha256": "348e8c41cb5731c3a928c6896c3cbd97bba6972e5f065cb00e9032f04d95a37e",
+      "object_sha256": "ca7ffaf08d4e0982eeccdc67dd7baae8c3a04201fc9731d319e2f315d6795927",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CanonicalCNF",
+      "source_sha256": "63e3e2fef73349cb2fa0f9d8d18cc5b71fe9916483e0b4acee87b64cf528a7c3",
+      "object_sha256": "fc9552f20f395e3b604b33384e48c1e39a2990676dc5c460eece6d023ae37848",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CanonicalEncoding",
+      "source_sha256": "c49ab8f5dc3d0f1ad7561cb10e53354f6d6a7420adac747c76f23e8dde1202b5",
+      "object_sha256": "2b51c83ef1e90ff65d18d11594c3b5f71f47f602d643df91ab55d669900c3ecd",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CanonicalLength",
+      "source_sha256": "4afd7a0d010df305f5272529c49eab4e4e642d22145b66a04f00c7a0b4ae748f",
+      "object_sha256": "0dec640075f9fc70e810d5901f9258af18c1fc487a4542eaf848a3a34a70eabf",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.CanonicalGraphBridge",
+      "source_sha256": "e1652f57112b8186190fda140767f42f2f1dbfc63eb7fa68bf0a087c7a7b6a90",
+      "object_sha256": "f986dbed4a5541b8d3b8ad3c4a4cb41383adf38b3ee91d3d48ddcd11ba6d5ff7",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RandomnessDescription",
+      "source_sha256": "a18f7df18bfd51ffdb61eeadb5eb0654c13ccfea8f7e0f87ff0bb87ecca76617",
+      "object_sha256": "841bbc70b70dbf95abe886778db39c7632da0397106dc37ea9f1ed9747d46608",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ScheduleBounds",
+      "source_sha256": "d25a952f40846956975154c3f38cdddb2334983010150f6edc95fad01804844e",
+      "object_sha256": "f6fe4e4496aa1217d724528096958a8c3ab31b8835a9c98007a09767f0f90fb3",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ScheduleAmplification",
+      "source_sha256": "915ea1fa983f1782e4b8b849ac6bd88cf60f3c5d819d36d2f559ce3a9c14baf3",
+      "object_sha256": "e4b44cb2cd482ae7d7d0d157d4b826be708af0adb040444610d147df1251c2ba",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.FairBitDigits",
+      "source_sha256": "653bfe2613fcc6581618c060f9bb59cf9706ca65f09339972151649fe73f455f",
+      "object_sha256": "bb6fd0e1e5c6008bfca9f7ad051fcac82d277cc67ce3f3e7eae5182f417ca021",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.FairBitGrid",
+      "source_sha256": "dac86060eae090ba192cc3612e1b777f36d982ba42c3577f540bdd7615132ecf",
+      "object_sha256": "9e3e376dff4348efa10c6a69d3f7f36048a17a12c7b381cdfa6c0a11dd00a6e3",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RegistryModel",
+      "source_sha256": "89c7fd84e29f2609d86ccfcf7d4d1ef574d0393d7b24f6ab41a9f1c3129cc450",
+      "object_sha256": "3b25087897d851002d9a45a5a5bc6c73c2f78eb9b3d72185e673f5e133fe6ad4",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.ScheduleDecision",
+      "source_sha256": "64486acc86178edb71abe76e5d6f651bf1c96947c2520054e84caeab56c42a33",
+      "object_sha256": "6879666be9b2b64e33496154173c02dd22d0de15e4aa4425a11eb2708abc9654",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RegistryBridge",
+      "source_sha256": "59ca9e16e8b82680319867d65b863bf2c4985b067abb567d71cacbea9b1b082d",
+      "object_sha256": "7027caef064a6458b0f12b772ea64a5b077d765a451cf21dcd82bf436bcee564",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RegistrySolution",
+      "source_sha256": "5803e79fbf9069bded2fdaddfb35df35c2608fd4652ba9db23b9f9bac4f6907b",
+      "object_sha256": "b9a3c6a09ff915c7ca6c36235ea15e4c514e63bab99bb03f06cc309147a91af6",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RegistryAudit",
+      "source_sha256": "4ef8405df5dd4d12ecc3bb58c486b45206022e6b8bbad820ab616384dc9cc961",
+      "object_sha256": "84d50501f2ad0ef504c0b382bffd858c6e1013a9f8d5ccb0d950127eb5dbd20a",
+      "exit": 0
+    },
+    {
+      "module": "HamParity.RegistryChallenge",
+      "source_sha256": "8e54cb1ed6ee95cdea5ba8c679b6afb714b59654dd4b5478266cef99f756c93b",
+      "object_sha256": "9056f8c5a5de9468168c2c5ec64b5b983d391ea7505dc259123b883152292670",
+      "exit": 0
+    }
+  ]
+}

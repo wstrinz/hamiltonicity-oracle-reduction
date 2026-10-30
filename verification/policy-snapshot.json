@@ -1,0 +1,9 @@
+{
+  "checked_date": "2026-10-29",
+  "palomar_minimum": "v4.35.0-rc2",
+  "verified_project": "v4.35.0-rc3",
+  "meets_minimum_version": true,
+  "license_chosen": false,
+  "hosted_verification_run": false,
+  "source": "https://raw.githubusercontent.com/PalomarRegistry/PalomarSubmission/main/toolchains.json"
+}

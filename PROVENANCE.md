@@ -1,0 +1,13 @@
+# Provenance and mathematical attribution
+
+This candidate is a freshly verified Lean 4.35.0-rc3 port of the preserved 4.34.1 finite-oracle development. All 103 Lean source files are identical; only the toolchain pin changed among the copied proof/build files. `verification/VERIFIED-SOURCE-MANIFEST.json` identifies all copied Lean sources and build/configuration files. No proof file was rewritten during the port. The original release and its ZIP remain preserved separately. The empty Lake manifest records zero external packages and matches the build setting used for verification.
+
+The development follows the binary Cut & Count cancellation principle of Cygan, Nederlof, Marcin Pilipczuk, Michał Pilipczuk, van Rooij and Wojtaszczyk, *Solving connectivity problems parameterized by treewidth in single exponential time*, arXiv:1103.0534v1 (2011), https://arxiv.org/abs/1103.0534v1. We adapt the cancellation method; we do not formalize their treewidth algorithm or import its runtime result.
+
+For related local isolation methods, see Benny Applebaum, *Exponentially-Hard gap-CSP and local PRG via Local Hardcore Functions*, ECCC TR17-063 (10 April 2017), https://eccc.weizmann.ac.il/report/2017/063/. Theorem 1.5 is titled “Local Isolation Lemma”; that is not the paper title. This reference is background, not an imported theorem or a premise of the checked proof. Generic parity-reduction novelty is not claimed. The contribution presented here is the explicit finite oracle interface, its concrete CNF realization and checked counts, bounds and probability guarantees.
+
+The focused four-page note remains in the preserved 4.34.1 publication candidate and is not relabeled as an rc3 artifact. This port includes an exact readable statement and proof map. Neither replaces the broader conditional-algorithm manuscript or the separate certification manuscript, both retained separately. Earlier private materials used the short label “Local Isolation Lemma” as Applebaum's bibliography title; this candidate uses the verified full title. The broader file was not silently changed.
+
+Lean core/Std and the external verification tools are dependencies/tools, not copied source implementations in this repository. Their immutable pins and upstream URLs are in `verification/tools.json`. No external exact-counting proof is imported. No private or third-party paper PDF, source archive, verifier binary or exported dependency environment is redistributed.
+
+See `AI_ASSISTANCE.md` for human/AI roles and `docs/THIRD_PARTY.md` for the bounded rights audit. Hashes and successful verification establish byte identity and checked proof behavior; they do not establish copyright ownership, novelty or platform acceptance.

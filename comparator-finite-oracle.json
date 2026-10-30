@@ -1,0 +1,18 @@
+{
+  "challenge_module": "HamParity.RegistryChallenge",
+  "solution_module": "HamParity.RegistrySolution",
+  "theorem_names": [
+    "HamiltonicityOracle.query_exact_count",
+    "HamiltonicityOracle.query_size",
+    "HamiltonicityOracle.fair_sample_space",
+    "HamiltonicityOracle.finite_oracle_reduction"
+  ],
+  "definition_names": [
+    "HamiltonicityOracle.query"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

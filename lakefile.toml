@@ -1,0 +1,5 @@
+name = "HamParity"
+defaultTargets = ["HamParity"]
+
+[[lean_lib]]
+name = "HamParity"

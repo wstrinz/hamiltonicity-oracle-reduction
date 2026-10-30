@@ -1,0 +1,13 @@
+# Hamiltonicity oracle reduction — verified Lean 4.35.0-rc3 port
+
+Human author: **Will Strinz**, [ORCID 0009-0007-7682-8284](https://orcid.org/0009-0007-7682-8284). See [AI assistance](AI_ASSISTANCE.md).
+
+This is a checked finite fair-bit reduction from Hamiltonicity to an exact integer model-count oracle for actual 3-CNF queries. It has no false positives and failure probability at most 1/3 on simple rooted Hamiltonian graphs with at least three vertices, with explicit formula, randomness and query-slot bounds. It makes no machine-runtime, space, recovery, external-counter or ETH claim.
+
+Read the [exact statement](docs/THEOREM.md), [proof map](docs/PROOF_MAP.md), [verification record](verification/README.md), [reproduction commands](docs/REPRODUCING.md), [provenance](PROVENANCE.md) and [licensing and packaging](LICENSE-DECISION.md).
+
+All **103 modules**, including the root facade, compiled on Lean **4.35.0-rc3**. The local fixed-interface check and its four negative controls passed. Fresh positive and deliberately altered-statement fixtures produced the intended acceptance/rejection. Installed Comparator accepted the combined configuration and each of the four individual targets with default-kernel replay. Solution's only axioms are propext, Quot.sound and Classical.choice. These are installed-tool results, not hosted Palomar or NanoDa checks.
+
+The only change to the 107 copied proof/build files was `lean-toolchain`: all 103 Lean sources, theorem signatures, assumptions and definitions are byte-identical to the preserved 4.34.1 candidate. `PORT-DIFF.json` records that change. `verification/SOURCE-BUILD-MANIFEST.json` preserves the exact source snapshot staged for this run; `MANIFEST.json` includes the later verification documentation. Supporting documentation is refreshed for this pin. The original focused PDF and complete 4.34.1 release remain separate historical artifacts and were not overwritten or relabeled.
+
+The rc3 pin meets the current official Palomar minimum of v4.35.0-rc2, observed 29 October 2026. [Intake evidence](INTAKE-REQUIREMENT.json) records the source and date. Will Strinz is the responsible maintainer. The original proofs, scripts, metadata and associated documentation in this snapshot are licensed under [MIT](LICENSE); `formalization.yaml` records that choice. The separately distributed manuscript is CC BY 4.0 and is not included in this snapshot. Third-party works retain their own terms; see [attribution](docs/THIRD_PARTY.md). A public fixed commit, complete hosted verification and final release/submission approval remain outstanding. No public remote, commit, upload or submission exists for this candidate.

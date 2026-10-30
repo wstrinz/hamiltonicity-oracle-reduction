@@ -1,0 +1,90 @@
+{
+  "kind": "fresh installed Comparator/default-kernel checks",
+  "hosted_palomar": false,
+  "nanoda": false,
+  "runs": [
+    {
+      "label": "combined",
+      "theorem_names": [
+        "HamiltonicityOracle.query_exact_count",
+        "HamiltonicityOracle.query_size",
+        "HamiltonicityOracle.fair_sample_space",
+        "HamiltonicityOracle.finite_oracle_reduction"
+      ],
+      "definition_names": [
+        "HamiltonicityOracle.query"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "exit": 0,
+      "accepted": true
+    },
+    {
+      "label": "target-0",
+      "theorem_names": [
+        "HamiltonicityOracle.query_exact_count"
+      ],
+      "definition_names": [
+        "HamiltonicityOracle.query"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "exit": 0,
+      "accepted": true
+    },
+    {
+      "label": "target-1",
+      "theorem_names": [
+        "HamiltonicityOracle.query_size"
+      ],
+      "definition_names": [
+        "HamiltonicityOracle.query"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "exit": 0,
+      "accepted": true
+    },
+    {
+      "label": "target-2",
+      "theorem_names": [
+        "HamiltonicityOracle.fair_sample_space"
+      ],
+      "definition_names": [
+        "HamiltonicityOracle.query"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "exit": 0,
+      "accepted": true
+    },
+    {
+      "label": "target-3",
+      "theorem_names": [
+        "HamiltonicityOracle.finite_oracle_reduction"
+      ],
+      "definition_names": [
+        "HamiltonicityOracle.query"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "exit": 0,
+      "accepted": true
+    }
+  ]
+}

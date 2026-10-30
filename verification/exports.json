@@ -1,0 +1,225 @@
+[
+  {
+    "role": "challenge",
+    "module": "HamParity.RegistryChallenge",
+    "sha256": "5a2261f9aa94f7118646fad38b291b2c192830c77bbc456f51467724c007c72d",
+    "bytes": 6647253,
+    "metadata": {
+      "exporter": {
+        "name": "lean4export",
+        "version": "3.1.0"
+      },
+      "format": {
+        "version": "3.1.0"
+      },
+      "lean": {
+        "githash": "470d5ce1400764999581fd26d5d72b00d990b0f4",
+        "version": "4.35.0-rc3"
+      }
+    },
+    "selected_declarations": [
+      {
+        "name": "HamiltonicityOracle.query",
+        "kind": "def",
+        "record_sha256": "3a0f5d5a8aa2af45634d756a059821222e70e4c72960c18ca1e9b84355ab876f",
+        "record": {
+          "def": {
+            "all": [
+              2276
+            ],
+            "hints": {
+              "regular": 2
+            },
+            "levelParams": [],
+            "name": 2276,
+            "safety": "safe",
+            "type": 9804,
+            "value": 10673
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.query_exact_count",
+        "kind": "thm",
+        "record_sha256": "c845bd5c725ca7e8fa17192daf3a768c6b6262ac2925a1e1e24ab6eee698b73e",
+        "record": {
+          "thm": {
+            "all": [
+              6064
+            ],
+            "levelParams": [],
+            "name": 6064,
+            "type": 35795,
+            "value": 35871
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.query_size",
+        "kind": "thm",
+        "record_sha256": "16b2695ad85eabd12ab237b0c2d03c3182068d0a369900535efcd664525aff26",
+        "record": {
+          "thm": {
+            "all": [
+              6115
+            ],
+            "levelParams": [],
+            "name": 6115,
+            "type": 36377,
+            "value": 36470
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.fair_sample_space",
+        "kind": "thm",
+        "record_sha256": "75d39efa2b8896248d58d569adada5e8755b8a68e1f6b10d01457fc7488e472d",
+        "record": {
+          "thm": {
+            "all": [
+              6162
+            ],
+            "levelParams": [],
+            "name": 6162,
+            "type": 36803,
+            "value": 36892
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.finite_oracle_reduction",
+        "kind": "thm",
+        "record_sha256": "282726464b472c18a9c933e58ebc2f181f67edc86d88967f4f5ed91839ad18c1",
+        "record": {
+          "thm": {
+            "all": [
+              12831
+            ],
+            "levelParams": [],
+            "name": 12831,
+            "type": 114199,
+            "value": 114325
+          }
+        }
+      }
+    ],
+    "axiom_records": [
+      "propext",
+      "sorryAx",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "note": "Standalone reproduction export with identical roots; not a capture of Comparator internal pipe bytes."
+  },
+  {
+    "role": "solution",
+    "module": "HamParity.RegistrySolution",
+    "sha256": "cd005f31629040badf74cafefeeec4726b2550184fa50298c2660d91cf64602b",
+    "bytes": 22848275,
+    "metadata": {
+      "exporter": {
+        "name": "lean4export",
+        "version": "3.1.0"
+      },
+      "format": {
+        "version": "3.1.0"
+      },
+      "lean": {
+        "githash": "470d5ce1400764999581fd26d5d72b00d990b0f4",
+        "version": "4.35.0-rc3"
+      }
+    },
+    "selected_declarations": [
+      {
+        "name": "HamiltonicityOracle.query",
+        "kind": "def",
+        "record_sha256": "63759e7b9c37fd00a3532797d7f408d3b16b470dd80cd1378286e150e923bdaa",
+        "record": {
+          "def": {
+            "all": [
+              12066
+            ],
+            "hints": {
+              "regular": 20
+            },
+            "levelParams": [],
+            "name": 12066,
+            "safety": "safe",
+            "type": 97724,
+            "value": 97749
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.query_exact_count",
+        "kind": "thm",
+        "record_sha256": "fdb47b2e3c270c01acba10861ea49ca19c24cd5d237cf3176bb6bc33f32737c3",
+        "record": {
+          "thm": {
+            "all": [
+              17485
+            ],
+            "levelParams": [],
+            "name": 17485,
+            "type": 185784,
+            "value": 185813
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.query_size",
+        "kind": "thm",
+        "record_sha256": "def20deb2583001155507c5f9855cf3d594052d8dfec4a4db2abe461cf6ea14f",
+        "record": {
+          "thm": {
+            "all": [
+              18359
+            ],
+            "levelParams": [],
+            "name": 18359,
+            "type": 218553,
+            "value": 218680
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.fair_sample_space",
+        "kind": "thm",
+        "record_sha256": "2506f21d8f83f49d287185abf8e3510bf68484c0aec0f15e61fc76680f0cc07b",
+        "record": {
+          "thm": {
+            "all": [
+              19503
+            ],
+            "levelParams": [],
+            "name": 19503,
+            "type": 233712,
+            "value": 233829
+          }
+        }
+      },
+      {
+        "name": "HamiltonicityOracle.finite_oracle_reduction",
+        "kind": "thm",
+        "record_sha256": "189643b9ece8224d9597b8d2da2a8e623e79301cff61546fab56248297f7438c",
+        "record": {
+          "thm": {
+            "all": [
+              28635
+            ],
+            "levelParams": [],
+            "name": 28635,
+            "type": 412091,
+            "value": 412606
+          }
+        }
+      }
+    ],
+    "axiom_records": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "note": "Standalone reproduction export with identical roots; not a capture of Comparator internal pipe bytes."
+  }
+]

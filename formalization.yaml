@@ -1,0 +1,61 @@
+# Local publication metadata; no public commit or hosted submission yet.
+version: v0.4
+project:
+  name: "A verified finite oracle reduction for Hamiltonicity"
+  description: "Concrete weighted 3-CNF queries with exact model-count preservation, explicit formula/query/randomness bounds and a finite fair-bit one-sided exact-count-oracle guarantee for simple rooted Hamiltonian graphs. No machine-runtime, space, recovery or ETH conclusion."
+  authors: ["Will Strinz"]
+  responsible_maintainers: ["Will Strinz"]
+  license: "MIT"
+sources:
+  - title: "Solving connectivity problems parameterized by treewidth in single exponential time"
+    authors: ["Marek Cygan", "Jesper Nederlof", "Marcin Pilipczuk", "Michał Pilipczuk", "Johan van Rooij", "Jakub Onufry Wojtaszczyk"]
+    id: "https://arxiv.org/abs/1103.0534v1"
+    type: paper
+    relationship: adapts
+    note: "Adapts binary Cut & Count cancellation; does not formalize the source's treewidth algorithm or runtime theorem. The complete finite interface and arithmetic compiler are independently constructed here."
+    author_endorsement: not-contacted
+  - title: "Exponentially-Hard gap-CSP and local PRG via Local Hardcore Functions"
+    authors: ["Benny Applebaum"]
+    id: "https://eccc.weizmann.ac.il/report/2017/063/"
+    type: paper
+    relationship: background
+    location: "Theorem 1.5 (Local Isolation Lemma)"
+    note: "Related local isolation route, not a Lean dependency or assumed theorem."
+    author_endorsement: not-contacted
+classification:
+  arxiv: [cs.DS, math.CO]
+  msc2020: []
+status:
+  scope: "Finite exact-count-oracle reduction; installed Comparator/default-kernel accepted. Not hosted Palomar or NanoDa."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  notes: "Counts refer to Solution and its import closure. Challenge deliberately has one definition placeholder and four theorem placeholders."
+  axioms: [propext, Quot.sound, Classical.choice]
+  main_results:
+    - declaration: HamiltonicityOracle.query_exact_count
+      file: HamParity/RegistrySolution.lean
+      comparator_config: comparator-finite-oracle.json
+    - declaration: HamiltonicityOracle.query_size
+      file: HamParity/RegistrySolution.lean
+      comparator_config: comparator-finite-oracle.json
+    - declaration: HamiltonicityOracle.fair_sample_space
+      file: HamParity/RegistrySolution.lean
+      comparator_config: comparator-finite-oracle.json
+    - declaration: HamiltonicityOracle.finite_oracle_reduction
+      file: HamParity/RegistrySolution.lean
+      comparator_config: comparator-finite-oracle.json
+automation:
+  methods:
+    - method: agent
+      models: ["OpenAI Codex"]
+      tool_setup: "Bounded Lean proof development, statement audits, installed Comparator, independent agent review and publication preparation."
+    - method: other
+      models: ["ChatGPT GPT Pro", "Claude"]
+      tool_setup: "Earlier mathematical exploration/source material; exact historical model versions not reconstructed."
+  notes: "See AI_ASSISTANCE.md. AI systems are not human authors or maintainers."
+fidelity:
+  divergences: "An explicit finite fair-bit procedure and integer schedule; no claimed machine implementation, external-counter composition or full broader-manuscript theorem."
+review:
+  status: agent-reviewed
+  reviewers: ["Independent Codex review agents"]
+  notes: "Separate source/interface review and machine checking; no independent human peer review or novelty clearance claimed."

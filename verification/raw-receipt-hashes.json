@@ -1,0 +1,45 @@
+{
+  "description": "Private original receipts retained separately; these are unsigned derived summaries.",
+  "receipts": [
+    {
+      "logical_name": "result.json",
+      "sha256": "d31cb626ccb20ab93496f36cb046a6389e2ee801c08e94a1824a22208fe5668b"
+    },
+    {
+      "logical_name": "BUILD-COMPLETE.json",
+      "sha256": "342891593cf45f038a102c81348a1e1ec7cbcb61bfd7cb32aed52bd580e06799"
+    },
+    {
+      "logical_name": "EXPORTS.json",
+      "sha256": "29ef25fb0a7419b765cd6a35ff39ddc718969108d331061def27905fe85d3056"
+    },
+    {
+      "logical_name": "FINAL-AUDIT.json",
+      "sha256": "bf78b8251c3592e4c6d8c205ba995f01754c20f6532c03c19edc5f932d4671a1"
+    },
+    {
+      "logical_name": "TERMINAL-AUDIT.json",
+      "sha256": "d454ce1e0ca6dd0b695daaf385a5a4a3a37bccdbd0b694347f97e03134f6157f"
+    },
+    {
+      "logical_name": "FIXTURE-CONTROLS.json",
+      "sha256": "54af43e446eec950b42ac96cc0bde195f054ea0c8626e1bfc445d1f60839e047"
+    },
+    {
+      "logical_name": "LOCAL-COMPARISON.json",
+      "sha256": "f351089913726b00f1a936faee8d1a357cf4cc6d15430ce457979b996bee014b"
+    },
+    {
+      "logical_name": "VERIFICATION-PROGRESS.json",
+      "sha256": "7a808b2ac1e93107a45b151294a70fe6ab5ce0a1b669d9a5b1af2987c2b73435"
+    },
+    {
+      "logical_name": "host-completion.json",
+      "sha256": "8d671ddc7a6637caadf511a7f915f22e9fb87b47785d4f9427ebce93c1bc50d1"
+    },
+    {
+      "logical_name": "INDEPENDENT-REVIEW.md",
+      "sha256": "c629f2145570058827f98fcb998aa92bba64db68118c0d9ea2397f7e7b57366b"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "offline licensing and packaging validation, not hosted license detection or proof replay",
+  "utc": "2026-10-29T23:45:05.748462+00:00",
+  "passed": true,
+  "license": "MIT",
+  "responsible_maintainers": [
+    "Will Strinz"
+  ],
+  "separate_manuscript_license": "CC-BY-4.0",
+  "upstream_v04_schema": "passed",
+  "one_root_license": [
+    "LICENSE"
+  ],
+  "all107_verified_source_and_build_files_unchanged": true,
+  "all103_Lean_files_unchanged": true,
+  "all546_original_protected_files_unchanged": true,
+  "historical_receipts_and_original_zips_preserved": true,
+  "privacy_and_relative_links_checked": true,
+  "manuscript_absent_from_proof_snapshot": true,
+  "official_Licensee_detector_run": false,
+  "hosted_Palomar_or_NanoDa_run": false,
+  "no_builds_or_public_actions": true,
+  "failures": []
+}

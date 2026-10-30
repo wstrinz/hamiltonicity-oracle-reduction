@@ -1,0 +1,34 @@
+{
+  "toolchain": {
+    "name": "leanprover/lean4:v4.35.0-rc3",
+    "revision": "470d5ce1400764999581fd26d5d72b00d990b0f4"
+  },
+  "tools": [
+    {
+      "name": "comparator",
+      "source_repository": "https://github.com/leanprover/comparator.git",
+      "revision": "fd5d5bcf14177b187f66d4502071268d877887c3",
+      "original_installed_binary_sha256": "9c52a28d59016a453d9d5da3c1fe09240f6fc4946863bc60849c9b361310c499"
+    },
+    {
+      "name": "landrun",
+      "source_repository": "https://github.com/Zouuup/landrun.git",
+      "revision": "811cfff51ceaf3d9843708aa6d22e9b84ccac8b4",
+      "original_installed_binary_sha256": "2a7c83d4d16ebaa839dbfd21c5e0a1da131977e3ed247c1230a76aacc6e5c84d"
+    },
+    {
+      "name": "lean4export",
+      "source_repository": "https://github.com/leanprover/lean4export.git",
+      "revision": "66f1fb4bc256072069767fce52d39480e4524869",
+      "original_installed_binary_sha256": "71043e7c3dce6a88b3472c0471dd5209af086919fcadc0478a0e134a1457bf0e"
+    }
+  ],
+  "matching_exporter": {
+    "source_revision": "66f1fb4bc256072069767fce52d39480e4524869",
+    "build_toolchain": "leanprover/lean4:v4.35.0-rc3",
+    "binary_sha256": "71043e7c3dce6a88b3472c0471dd5209af086919fcadc0478a0e134a1457bf0e",
+    "origin": "Pre-existing original installed exporter; no new build or implementation changes in this port."
+  },
+  "comparator_default_kernel": "4.35.0-rc3",
+  "pin_note": "Recorded local source pins/remotes and executable hashes, not signed upstream attestations. Tools and binaries are not redistributed."
+}
