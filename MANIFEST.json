@@ -45,8 +45,8 @@
     },
     {
       "path": "formalization.yaml",
-      "sha256": "d502b626ac628a34db5359f56409e44a2e46c091eab08c39995162df40fbb370",
-      "bytes": 3447
+      "sha256": "820ee371cc86c8bce0e6b310e6633d15a03a68b67f920ad39c25ffcf36e2b8ea",
+      "bytes": 3482
     },
     {
       "path": "HamParity/BatchCounting.lean",

@@ -26,7 +26,7 @@ classification:
   arxiv: [cs.DS, math.CO]
   msc2020: []
 status:
-  scope: "Finite exact-count-oracle reduction; installed Comparator/default-kernel accepted. Not hosted Palomar or NanoDa."
+  scope: "Finite exact-count-oracle reduction; installed Comparator/default-kernel and standalone NanoDa checked. No hosted Palomar workflow or registration."
   sorry_count: 0
   sorry_in_definitions: 0
   notes: "Counts refer to Solution and its import closure. Challenge deliberately has one definition placeholder and four theorem placeholders."
