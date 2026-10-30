@@ -1,0 +1,23 @@
+# LOCAL DRAFT ONLY. Publishing and dispatching this caller require approval.
+# Target the published proof snapshot, NOT the future caller commit.
+name: Verify Hamiltonicity snapshot d311a80
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+    with:
+      repository: wstrinz/hamiltonicity-oracle-reduction
+      commit: d311a80de9655bd80bd2a14ea942ec9e6cbca3a0
+      pipeline_commit: 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+      request_id: hamd311a8001
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: >-
+        {"authorization_relationship":"I have approval from a responsible author or maintainer","comparator_config_path":"comparator-finite-oracle.json","formalization_metadata_path":"formalization.yaml"}
+# No secrets are passed or inherited. No push, pull_request, schedule or API submission trigger.
